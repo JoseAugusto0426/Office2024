@@ -1,0 +1,59 @@
+
+    
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: hwb(0 8% 30%);
+            background-color: #c91d1d;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        body {
+            background-image: url('img/blob.jpg');
+            background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen en la pantalla */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            height: 100vh; /* Hace que el body tenga la altura completa de la pantalla */
+            margin: 0; /* Elimina los márgenes del body */
+            font-family: Arial, sans-serif; /* Aplica una fuente básica */
+            color: white; /* Cambia el color del texto a blanco */
+            text-align: center; /* Centra el texto */
+            display: flex; /* Usa flexbox para centrar el contenido */
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+      
+
+        
+        h1{
+
+            font-family: 'Arial', sans-serif; /* Tipo de letra */
+            font-size: 36px; /* Tamaño de la letra */
+            color: #333; /* Color de la letra */
+            text-align: center; /* Alineación del texto */
+            text-transform: uppercase; /* Transformación de texto */
+            letter-spacing: 2px; /* Espaciado entre letras */
+            margin-top: 20px; /* Margen superior */
+            margin-bottom: 20px; /* Margen inferior */
+        }
+
+        a {
+
+            background-color: #6eb300;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px; /* Tamaño de la letra */
+            color: #fff; /* Color del texto */
+            background-color: rgb(255, 0, 13); /* Color de fondo */
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: hsl(162, 100%, 35%); /* Color de fondo al pasar el cursor */
+            color: hwb(0 7% 43%); /* Color del texto al pasar el cursor */
+            box-shadow: 0 0 10px #00ff00b3; /* Efecto de iluminación */
+        }
+    
+
